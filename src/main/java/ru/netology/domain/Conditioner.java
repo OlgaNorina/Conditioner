@@ -47,7 +47,7 @@ public class Conditioner {
         this.maxTemperature = maxTemperature;
     }
 
-    public void IncreaseCurrentTemperature() {
+    public void increaseCurrentTemperature() {
         if (!on) {
             return;
         }
@@ -56,7 +56,7 @@ public class Conditioner {
         }
     }
 
-    public void DecreaseCurrentTemperature() {
+    public void decreaseCurrentTemperature() {
         if (!on) {
             return;
         }
